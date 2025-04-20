@@ -1,13 +1,7 @@
-# PowerShell System Monitor Script
+# Clean Monitor Script
 
-This PowerShell script displays:
+This PowerShell script displays system uptime, CPU usage, memory usage, and disk space for drive C:.
 
-- System uptime
-- CPU usage
-- Memory usage
-- Disk usage
-
-## Run
-
+To run:
 ```powershell
-.\monitor.ps1
+powershell -ExecutionPolicy Bypass -File .\clean_monitor.ps1
