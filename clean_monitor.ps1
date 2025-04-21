@@ -27,3 +27,5 @@ $diskSize = [math]::Round($disk.Size / 1GB, 2)
 $diskFree = [math]::Round($disk.FreeSpace / 1GB, 2)
 $diskUsed = [math]::Round($diskSize - $diskFree, 2)
 Write-Host "Disk Usage (C:): $diskUsed GB / $diskSize GB`n"
+
+# setting up firestick in the meantime need a push
